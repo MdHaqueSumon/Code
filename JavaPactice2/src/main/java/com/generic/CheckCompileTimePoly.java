@@ -21,5 +21,10 @@ public class CheckCompileTimePoly {
 	void getsalary(double b,String a) {
 
 	}
+	void getsalary(double b,String a, int c) {
+
+	}
+	
+	
 
 }
