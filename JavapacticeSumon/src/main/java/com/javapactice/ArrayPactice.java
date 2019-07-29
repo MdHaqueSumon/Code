@@ -1,6 +1,7 @@
 package com.javapactice;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -39,7 +40,18 @@ public class ArrayPactice {
 		List<Integer> linklist= new LinkedList<Integer>();
 		List<Integer> vector= new Vector<Integer>();
 		List<Integer> stack= new Stack<Integer>();
+		
+		Integer [] arrayToSort = new Integer[] {10,3,56,87,42,5};
+		System.out.print("General Order is = ");
+		for(Integer i : arrayToSort) {
+			System.out.print(i.intValue() + " ");
+		}
+		Arrays.sort(arrayToSort);
+		System.out.print("\n\n Accending order=");
+		for(Integer i:arrayToSort) {
+			System.out.print(i.intValue()+" ");
+		}
 
-	}
+	
 
-}
+}}

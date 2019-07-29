@@ -7,9 +7,14 @@ public class OddAndEven {
 		for(int i=0;i<=100; i++) {
 			System.out.println(+i);
 			if(i%2==0) {
-				System.out.println("even numbe :"+i);}else {
-					System.out.println("odd number :"+i);
+				//System.out.println("even numbe :"+i);}else {
+					//System.out.println("odd number :"+i);
 				}
+			for(int j=0; j>10;j++) {
+				if(j%2 ==0) {
+					System.out.println(j);
+				}
+			}
 					
 				
 					
@@ -23,10 +28,10 @@ public class OddAndEven {
 				
 		
 	          if(i%3==0) {
-				System.out.println("Buzz Number :"+i);
+				//System.out.println("Buzz Number :"+i);
 			}
 			if(i%5==0) {
-				System.out.println("Fizz Number :"+i);
+				//System.out.println("Fizz Number :"+i);
 			}
 			
 			
