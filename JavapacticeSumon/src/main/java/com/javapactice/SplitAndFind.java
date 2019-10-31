@@ -4,7 +4,7 @@ public class SplitAndFind {
 	public static void main(String[] args) {
 		String str ="Smart tech Student";
 		
-		String[]sp=str.split("");
+		String[]sp=str.split(" ");
 		for(String i:sp) {
 			System.out.println(i);
 			

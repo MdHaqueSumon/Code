@@ -24,6 +24,8 @@ public class ArrayMaxMin {
 			
 		}
 		System.out.println(+sum);
+		
+	
 	}
 
 }
