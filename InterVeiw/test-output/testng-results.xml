@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8949" started-at="2020-03-20T18:18:36Z" finished-at="2020-03-20T18:18:45Z">
+  <suite name="Default suite" duration-ms="47242" started-at="2020-03-23T22:12:28Z" finished-at="2020-03-23T22:13:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8949" started-at="2020-03-20T18:18:36Z" finished-at="2020-03-20T18:18:45Z">
-      <class name="com.interveiwpectice.SmartPac">
-        <test-method status="PASS" signature="logIn()[pri:0, instance:com.interveiwpectice.SmartPac@727803de]" name="logIn" duration-ms="8922" started-at="2020-03-20T18:18:36Z" finished-at="2020-03-20T18:18:45Z">
+    <test name="Default test" duration-ms="47242" started-at="2020-03-23T22:12:28Z" finished-at="2020-03-23T22:13:16Z">
+      <class name="com.interveiwpectice.PaypalDemo">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.interveiwpectice.PaypalDemo@376b4233]" name="SetUp" is-config="true" duration-ms="2581" started-at="2020-03-23T22:12:28Z" finished-at="2020-03-23T22:12:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-      </class> <!-- com.interveiwpectice.SmartPac -->
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LogIN()[pri:0, instance:com.interveiwpectice.PaypalDemo@376b4233]" name="LogIN" duration-ms="44627" started-at="2020-03-23T22:12:31Z" finished-at="2020-03-23T22:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIN -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.interveiwpectice.PaypalDemo@376b4233]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-03-23T22:13:16Z" finished-at="2020-03-23T22:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.interveiwpectice.PaypalDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

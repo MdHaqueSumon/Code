@@ -27,6 +27,8 @@ public class DemoQA {
 				System.out.println(child);
 				driver.switchTo().window(child);
 				driver.close();}}
+		
+		
 		driver.switchTo().window(pWindow);
 		driver.findElement(By.xpath("//*[contains(text(),'IFrame practice page')]")).click();
 		//

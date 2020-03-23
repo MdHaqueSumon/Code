@@ -30,8 +30,9 @@ public class SmartPac {
 				System.out.println(child);
 				driver.switchTo().window(child);}}
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("mdahaque4@gmail.com");
-//		//WebDriverWait wait = new WebDriverWait(driver,30);
-//		//wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='identifierNext']")))).click();
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		
+		//wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='identifierNext']")))).click();
 		driver.findElement(By.xpath("//div[@id='identifierNext']")).click();
 //		Thread.sleep(5000);
 //		driver.findElement(By.name("password")).sendKeys("Sumon0680");

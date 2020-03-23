@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.interveiwpectice.SmartPac">
+      <class name="com.interveiwpectice.PaypalDemo">
         <methods>
-          <include name="logIn"/>
+          <include name="LogIN"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.interveiwpectice.SmartPac -->
+      </class> <!-- com.interveiwpectice.PaypalDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
