@@ -12,6 +12,7 @@ public class StringRevers {
 			sb.reverse();
 			rev=sb.toString()+" ";
 			System.out.println(rev);
+			
 		}
 	}
 

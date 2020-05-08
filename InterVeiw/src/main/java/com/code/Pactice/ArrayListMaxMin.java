@@ -13,6 +13,7 @@ public class ArrayListMaxMin {
 		list.add(30);
 		list.add(40);
 		list.add(50);
+		
 		Integer maxValue=Collections.max(list);
 		System.out.println(maxValue);
 		list.remove(maxValue);

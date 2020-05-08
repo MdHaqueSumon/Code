@@ -13,6 +13,10 @@ public class ArraysRevers {
 			arr[arr.length-i-1]=temp;
 			
 		}
+		
+		
 		System.out.println(Arrays.toString(arr));
+		
+		
 	}
 }

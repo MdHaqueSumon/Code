@@ -12,8 +12,13 @@ public class ArraysRemoveDublicate {
 		for(int i=0; i<len; i++) {
 			set.add(num[i]);
 			
+			
+			
 			}
 		System.out.println(set);
+		
+		
+		
 		}
 	}
 

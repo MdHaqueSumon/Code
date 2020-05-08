@@ -13,6 +13,7 @@ public class FizzBuzz {
 		}
 		if(i%5==0) {
 			System.out.println("Buzz"+i);
+			
 		}
 	}
 

@@ -8,6 +8,7 @@ public class ArraysDublicat {
 			for(int j=i+1; j<arr.length; j++) {
 				if((arr[i]==arr[j])&&(i!=j)) {
 					System.out.println("Dublicat Element"+arr[j]);
+					System.out.println();
 				}
 			}
 			

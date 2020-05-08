@@ -10,9 +10,11 @@ public class ArraysSecondMax {
 				secondmax=max;
 				max=arr[i];
 			}else if(arr[i]>secondmax) {
+				
 				secondmax=arr[i];
 			}
 		}
+		
 		System.out.println(secondmax);
 	}
 

@@ -13,6 +13,7 @@ public class PalindomNumber {
 		}
 		if(temp==sum)
 			System.out.println("palindom");
+		
 		else
 			System.out.println("Not Palindom");
 	}

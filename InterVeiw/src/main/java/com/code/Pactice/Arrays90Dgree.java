@@ -11,6 +11,7 @@ public class Arrays90Dgree {
 				a[n-1-j][i]=a[n-1-i][n-1-j];
 				a[n-1-i][n-1-j]= a[j][n-1-i];
 				a[j][n-1-i]=temp;
+				
 			}
 		}
 	}
@@ -27,6 +28,7 @@ public class Arrays90Dgree {
 		int arr [][]= {{1,5},{2,4}};
 		retro(arr);
 		print(arr);
+		
 
 	}
 

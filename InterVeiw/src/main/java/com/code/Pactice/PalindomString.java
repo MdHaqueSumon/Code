@@ -13,6 +13,7 @@ public class PalindomString {
 			System.out.println("palindom");
 		else
 			System.out.println("not palindom");
+		
 	}
 
 }

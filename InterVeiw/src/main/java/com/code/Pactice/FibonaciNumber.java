@@ -9,6 +9,7 @@ public class FibonaciNumber {
 			System.out.println(febo);
 			first = second;
 			second = febo;
+			
 		}
 
 	}
