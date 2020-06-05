@@ -11,7 +11,7 @@ public class StringRevers {
 			StringBuffer sb = new StringBuffer(re);
 			sb.reverse();
 			rev=sb.toString()+" ";
-			System.out.println(rev);
+			System.out.print(rev);
 			
 		}
 	}

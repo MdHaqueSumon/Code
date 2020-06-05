@@ -17,7 +17,7 @@ public class PaypalDemo {
 	@BeforeTest
 	public void SetUp() {
 		System.setProperty("webdriver.chrome.driver", "/Users/mdhaque/Downloads/chromedriver");
-		driver = new ChromeDriver();
+	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		

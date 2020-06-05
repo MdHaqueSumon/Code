@@ -1,6 +1,7 @@
 package com.interveiwpectice;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -23,14 +24,14 @@ public class WindowHandels {
 		driver.findElement(By.xpath("//*[@class='popupCloseButton']")).click();
 		
 		
-//		String parentwin=driver.getWindowHandle();
+		String parentwin=driver.getWindowHandle();
 //		System.out.println(parentwin);
 		driver.findElement(By.xpath("//button[@class='btn btn-primary login-btn ng-scope']")).click();
 		driver.findElement(By.xpath("(//label[@class='link-name'])[4]")).click();
 		driver.findElement(By.xpath("//a[@class='btn-primary login-url']")).click();
 		
 		
-//		Set<String>allwindow=driver.getWindowHandles();
+		Set<String>allwindow= driver.getWindowHandles();
 //		//ArrayList<String> window = new ArrayList<String>(allwindow);
 //		
 //		
@@ -51,14 +52,14 @@ public class WindowHandels {
 //			}
 //			
 //		}
-//		for(String child2:allwindow) {
-//			if(!parentwin.equalsIgnoreCase(child2)) {
-//				driver.switchTo().window(child2);
-//				driver.switchTo().activeElement().sendKeys("abc");
-//				//driver.findElement(By.xpath("//*[@name='fldLoginUserId']")).sendKeys("anbc");
-//			}
-//			
-//		}
+		for(String child2:allwindow) {
+			if(!parentwin.equalsIgnoreCase(child2)) {
+				driver.switchTo().window(child2);
+				driver.switchTo().activeElement().sendKeys("abc");
+				//driver.findElement(By.xpath("//*[@name='fldLoginUserId']")).sendKeys("anbc");
+			}
+			
+		}
 
 	}
 
