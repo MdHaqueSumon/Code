@@ -18,7 +18,7 @@ public class ScroolDown {
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		Thread.sleep(5000);
 		JavascriptExecutor js =(JavascriptExecutor)driver;
-		js.executeScript("scroll(,400)");
+		js.executeScript("scroll(0,400)");
 		
 		
 		
