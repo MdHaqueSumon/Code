@@ -8,13 +8,16 @@ public class Singletone {
 	}
 
 }
+
 class Abc {
-	static Abc obj  = new Abc();
 	private Abc() {
-		
+
 	}
+
+	static Abc obj = new Abc();
+
 	public static Abc getInstance() {
 		return obj;
-		
+
 	}
 }

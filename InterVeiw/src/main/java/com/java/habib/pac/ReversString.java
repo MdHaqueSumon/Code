@@ -13,6 +13,7 @@ public class ReversString {
 			//System.out.print(str.charAt(i));
 			rev=rev+str.charAt(i);
 		}
+		
 		if(str.equals(rev)) {
 			System.out.println("Palin Dom");
 		}else {
