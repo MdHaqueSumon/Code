@@ -19,6 +19,7 @@ public class ScroolDown {
 		Thread.sleep(5000);
 		JavascriptExecutor js =(JavascriptExecutor)driver;
 		js.executeScript("scroll(0,400)");
+	
 		
 		
 		

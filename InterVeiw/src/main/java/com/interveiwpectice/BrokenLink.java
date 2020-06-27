@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class BrokenLink {
 
@@ -21,6 +22,9 @@ public class BrokenLink {
 		System.out.println(linklist.size());
 		for(int i=0; i<linklist.size(); i++) {
 			System.out.println(linklist.get(i).getText());
+			
+			Actions action =new  Actions(driver);
+			action.moveToElement(driver.findElement(By.xpath(""))).build().perform();
 		}
 		
 	
